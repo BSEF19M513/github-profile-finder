@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  outline: none;
+}
+
+body {
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container h2{
+    padding: 10px;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+
+.search{
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px 40px;
+}
+
+.search input{
+    color: black;
+    font-weight: bold;
+}
+
+.profile{
+    height: 300px;
+    width: 600px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.profile img{
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+.profile h4{
+    text-align: center;
+}
+
+.profile .line{
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.profile .link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.profile h3{
+    text-align: center;
+}
+
+.search button{
+    background-color: rgb(36, 109, 192);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: rgb(13, 111, 223);
+}
+
+#visit-profile{
+    padding: 20px;
+}
+
+#visit-profile button{
+    padding: 10px 20px;
+    background-color: rgb(36, 109, 192);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: medium;
+}
+
+#visit-profile button:hover{
+    background-color: rgb(13, 111, 223);
+}

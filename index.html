@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Profile Finder</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h2>Github Profile Finder</h2>
+        </div>
+
+        <form id="myForm">
+            <div class="search">
+                <h4>Search Github profile</h4>
+                <input type="text" id="input" required>
+                <button id="searchProfile">Search</button>
+            </div>
+        </form>
+
+        <div class="profile">
+            <img src="github.svg" alt="profile" id="avatar">
+            <h4 id="name">Hello User</h4>
+            <hr class="line">
+            <div class="link">
+
+                <span>
+                    <h3>Repos</h3>
+                    <h3 id="repos">0</h3>
+                </span>
+
+                <span>
+                    <h3>Follwers</h3>
+                    <h3 id="Follwers">0</h3>
+                </span>
+
+                <span>
+                    <h3>Followings</h3>
+                    <h3 id="Followings">0</h3>
+                </span>
+            </div>
+
+
+        </div>
+
+        <div id="visit-profile">
+            <button>
+                Visit Profile
+            </button>
+        </div>
+
+
+
+    </div>
+</body>
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+
+<script src="script.js"></script>
+
+</html>
